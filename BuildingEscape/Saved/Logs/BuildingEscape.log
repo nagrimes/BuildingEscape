@@ -753,3 +753,5 @@ LogInit: Object subsystem initialized
 [2018.05.28-23.16.50:625][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
 [2018.05.28-23.16.50:646][842]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.345
 [2018.05.28-23.16.50:646][842]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.345
+[2018.05.28-23.21.19:508][671]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.28-23.37.50:463][605]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)

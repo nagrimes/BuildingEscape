@@ -52,9 +52,15 @@
     <ClInclude Include="..\..\Source\BuildingEscape\OpenDoor.h">
       <Filter>Source\BuildingEscape</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BuildingEscape\Grabber.h">
+      <Filter>Source\BuildingEscape</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BuildingEscape\OpenDoor.cpp">
+      <Filter>Source\BuildingEscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BuildingEscape\Grabber.cpp">
       <Filter>Source\BuildingEscape</Filter>
     </ClCompile>
   </ItemGroup>

@@ -4324,6 +4324,8 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeBuildingEscape_init();
     extern void EmptyLinkFunctionForGeneratedCodeBuildingEscapeGameModeBase();
     EmptyLinkFunctionForGeneratedCodeBuildingEscapeGameModeBase();
+    extern void EmptyLinkFunctionForGeneratedCodeGrabber();
+    EmptyLinkFunctionForGeneratedCodeGrabber();
     extern void EmptyLinkFunctionForGeneratedCodeOpenDoor();
     EmptyLinkFunctionForGeneratedCodeOpenDoor();
     extern void EmptyLinkFunctionForGeneratedCodePositionReporter();

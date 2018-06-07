@@ -35,6 +35,21 @@ void UGrabber::BeginPlay()
 	else {
 		UE_LOG(LogTemp, Error, TEXT("PhysicsHandle component not found in object %s!"), *GetOwner()->GetName());
 	}
+	
+	/// Look for attached Input Component
+	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
+	if (InputComponent) {
+		UE_LOG(LogTemp, Warning, TEXT("Input Component found!"));
+		/// Bind the input axis.
+		InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+	}
+	else {
+		UE_LOG(LogTemp, Error, TEXT("InputComponent component not found in object %s!"), *GetOwner()->GetName());
+	}
+}
+
+void UGrabber::Grab() {
+	UE_LOG(LogTemp, Warning, TEXT("Grab pressed!"));
 }
 
 

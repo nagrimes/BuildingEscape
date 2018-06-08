@@ -1,19 +1,18 @@
-﻿Log file open, 06/07/18 14:30:17
+﻿Log file open, 06/08/18 00:36:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
-LogInit: Display: Running engine without a game
+LogInit: Display: Running engine for game: BuildingEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: Loading recent project file: ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject
-LogInit: Display: RandInit(-1024058007) SRandInit(-1024058007).
+LogInit: Display: RandInit(763582227) SRandInit(763582227).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.207947
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.282294
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -85,8 +84,109 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.164s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Binaries/Win64/UE4Editor-BuildingEscape-6326.dll (API version 3944462).
+LogStreaming: Display: Took  0.216s to configure plugins.
+LogModuleManager: Warning: Module file ../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Binaries/Win64/UE4Editor-BuildingEscape-3756.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Warning: Incompatible or missing module: UE4Editor-BuildingEscape.dll
+Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape Development Win64 -project="C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+@progress push 5%
+Parsing headers for BuildingEscapeEditor
+  Running UnrealHeaderTool "C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for BuildingEscapeEditor in 31.977663 seconds
+@progress pop
+Performing 4 actions (6 in parallel)
+Grabber.gen.cpp
+Grabber.cpp
+[3/4] Link UE4Editor-BuildingEscape.dll
+[4/4] Link UE4Editor-BuildingEscape.lib
+   Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
+   Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.exp
+Total build time: 96.54 seconds (Local executor: 62.11 seconds)
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Binaries/Win64/UE4Editor-BuildingEscape.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -190,7 +290,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-6LB38B5 (10.18.110.172:0)
+LogInit: WinSock: I am DESKTOP-3SLESNI (192.168.0.10:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -221,735 +321,767 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: -EpicPortal 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.07-18.30.20:101][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.07-18.30.20:101][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.07-18.30.20:157][  0]LogInit: Computer: DESKTOP-6LB38B5
-[2018.06.07-18.30.20:157][  0]LogInit: User: MerBear
-[2018.06.07-18.30.20:157][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.06.07-18.30.20:157][  0]LogInit: High frequency timer resolution =2.338336 MHz
-[2018.06.07-18.30.20:158][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.06.07-18.30.20:158][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.07-18.30.20:158][  0]LogMemory: Process Physical Memory: 274.37 MB used, 274.37 MB peak
-[2018.06.07-18.30.20:158][  0]LogMemory: Process Virtual Memory: 265.98 MB used, 265.98 MB peak
-[2018.06.07-18.30.20:158][  0]LogMemory: Physical Memory: 5651.34 MB used,  10648.04 MB free, 16299.39 MB total
-[2018.06.07-18.30.20:158][  0]LogMemory: Virtual Memory: 680.56 MB used,  10648.04 MB free, 134217728.00 MB total
-[2018.06.07-18.30.20:189][  0]LogInit: Using OS detected language (en-US).
-[2018.06.07-18.30.20:189][  0]LogInit: Using OS detected locale (en-US).
-[2018.06.07-18.30.20:335][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.06.07-18.30.20:999][  0]LogStreaming: Display: Took  0.809s to EndInitTextLocalization.
-[2018.06.07-18.30.20:999][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.07-18.30.21:214][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.07-18.30.21:214][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.07-18.30.27:677][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.07-18.30.27:790][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
-[2018.06.07-18.30.27:790][  0]LogD3D11RHI:       2020/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.06.07-18.30.27:798][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2018.06.07-18.30.27:798][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.06.07-18.30.27:802][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.07-18.30.27:802][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.07-18.30.27:802][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.07-18.30.27:814][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.07-18.30.27:814][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.07-18.30.27:814][  0]LogWindows: EnumDisplayDevices:
-[2018.06.07-18.30.27:814][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2018.06.07-18.30.27:815][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.06.07-18.30.27:815][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.06.07-18.30.27:815][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.07-18.30.27:815][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
-[2018.06.07-18.30.27:815][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.07-18.30.27:815][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.07-18.30.27:815][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
-[2018.06.07-18.30.27:878][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.07-18.30.27:878][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.07-18.30.27:878][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.07-18.30.27:898][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.06.07-18.30.27:900][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/13296/).
-[2018.06.07-18.30.27:900][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mer Bear/AppData/Local/Temp/UnrealShaderWorkingDir/0E7E5F7140F0C48E6CBA4080CD41EDAC/'.
-[2018.06.07-18.30.28:264][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.07-18.30.28:289][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.07-18.30.28:311][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.07-18.30.28:332][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.07-18.30.28:377][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.07-18.30.28:396][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.07-18.30.28:421][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.07-18.30.28:440][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.07-18.30.28:447][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.07-18.30.28:464][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.07-18.30.28:483][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.07-18.30.28:501][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.07-18.30.28:519][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.07-18.30.28:541][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.07-18.30.28:557][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.07-18.30.28:590][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.07-18.30.28:590][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.07-18.30.28:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.07-18.30.28:624][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.07-18.30.28:680][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.07-18.30.28:697][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.07-18.30.28:716][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.07-18.30.28:739][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.07-18.30.28:754][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.07-18.30.28:786][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.07-18.30.28:786][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.07-18.30.28:947][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.07-18.30.28:947][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.07-18.30.28:947][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.07-18.30.32:764][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.07-18.30.33:231][  0]LogDerivedDataCache: Loaded boot cache 0.47s 74MB C:/Users/Mer Bear/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.07-18.30.33:231][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mer Bear/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.07-18.30.33:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.07-18.30.33:231][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.07-18.30.33:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.07-18.30.33:231][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.07-18.30.33:263][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.07-18.30.33:275][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mer Bear/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.07-18.30.33:275][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.07-18.30.33:275][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.07-18.30.33:289][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.07-18.30.33:290][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.07-18.30.33:322][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.07-18.30.33:322][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.07-18.30.35:812][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
-[2018.06.07-18.30.36:346][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.07-18.30.36:650][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.07-18.30.36:653][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.07-18.30.36:653][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.07-18.30.36:653][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.07-18.30.36:653][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.07-18.30.36:653][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.07-18.30.36:692][  0]LogNetVersion: BuildingEscape , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4285820645)
-[2018.06.07-18.30.37:346][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.116675 seconds
-[2018.06.07-18.30.37:353][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.07-18.30.37:354][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.06.07-18.30.37:354][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.07-18.31.02:356][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.07-18.31.02:391][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.07-18.31.03:202][  0]SourceControl: Source control is disabled
-[2018.06.07-18.31.03:202][  0]SourceControl: Source control is disabled
-[2018.06.07-18.31.03:223][  0]SourceControl: Source control is disabled
-[2018.06.07-18.31.03:242][  0]SourceControl: Source control is disabled
-[2018.06.07-18.31.03:991][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.07-18.31.04:162][  0]LogOcInput: OculusInput pre-init called
-[2018.06.07-18.31.04:433][  0]LogEngine: Initializing Engine...
-[2018.06.07-18.31.04:435][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.07-18.31.04:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.07-18.31.04:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.07-18.31.04:750][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.07-18.31.04:773][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.07-18.31.04:788][  0]LogInit: FAudioDevice initialized.
-[2018.06.07-18.31.05:000][  0]LogDerivedDataCache: Saved boot cache 0.21s 74MB C:/Users/Mer Bear/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.07-18.31.05:041][  0]LogInit: Texture streaming: Enabled
-[2018.06.07-18.31.05:075][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.07-18.31.05:111][  0]LogInit: Transaction tracking system initialized
-[2018.06.07-18.31.05:141][  0]BlueprintLog: New page: Editor Load
-[2018.06.07-18.31.05:252][  0]LocalizationService: Localization service is disabled
-[2018.06.07-18.31.05:417][  0]LogConsoleResponse: Display: 
-[2018.06.07-18.31.05:652][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.07-18.31.05:652][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.07-18.31.05:652][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.07-18.31.05:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.07-18.31.05:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.07-18.31.06:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/' took 0.02s
-[2018.06.07-18.31.07:109][  0]SourceControl: Source control is disabled
-[2018.06.07-18.31.07:110][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.07-18.31.07:110][  0]LightingResults: New page: Lighting Build
-[2018.06.07-18.31.07:114][  0]MapCheck: New page: Map Check
-[2018.06.07-18.31.07:115][  0]LightingResults: New page: Lighting Build
-[2018.06.07-18.31.07:904][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.07-18.31.07:917][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.07-18.31.07:941][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.07-18.31.08:025][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.464ms to complete.
-[2018.06.07-18.31.08:025][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.915
-[2018.06.07-18.31.08:243][  0]LogCollectionManager: Loaded 0 collections in 0.002275 seconds
-[2018.06.07-18.31.08:287][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
-[2018.06.07-18.31.08:287][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/Developers/MerBear/Collections/' took 0.01s
-[2018.06.07-18.31.08:287][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
-[2018.06.07-18.31.08:287][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.07-18.31.08:301][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2456 classes and 560 folders.
-[2018.06.07-18.31.08:310][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.06.07-18.31.09:412][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2018.06.07-18.31.09:430][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2018.06.07-18.31.09:524][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.06.07-18.31.09:524][  0]LogLoad: (Engine Initialization) Total time: 53.95 seconds
-[2018.06.07-18.31.09:524][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.07-18.31.09:563][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.07-18.31.09:565][  0]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.07-18.31.09:571][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.07-18.31.09:598][  0]LogSlate: Took 0.022946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.07-18.31.09:598][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.06.07-18.31.09:832][  2]LogRenderer: Reallocating scene render targets to support 780x380 Format 10 NumSamples 1 (Frame:1).
-[2018.06.07-18.31.10:005][  2]LogAssetRegistry: Asset discovery search completed in 34.2156 seconds
-[2018.06.07-18.31.10:012][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.07-18.31.10:013][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000523 seconds (updated 0 objects)
-[2018.06.07-18.32.48:045][448]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.06.07-18.32.48:053][448]Candidate modules for hot reload:
-[2018.06.07-18.32.48:053][448]  BuildingEscape
-[2018.06.07-18.32.48:053][448]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,2932 Win64 Development -editorrecompile -canskiplink "C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2018.06.07-18.32.48:058][448]Warning: Starting HotReload took  0.0s.
-[2018.06.07-18.32.51:453][597]LogRenderer: Reallocating scene render targets to support 780x592 Format 10 NumSamples 1 (Frame:316).
-[2018.06.07-18.32.51:520][598]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 10:32:51 AM
-[2018.06.07-18.32.51:522][598]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.07-18.32.51:524][598]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.07-18.32.51:526][598]CompilerResultsLog: Target is up to date
-[2018.06.07-18.32.51:527][598]CompilerResultsLog: Total build time: 2.28 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.06.07-18.32.51:528][598]LogMainFrame: MainFrame: Module compiling took 3.483 seconds
-[2018.06.07-18.32.51:596][598]LogContentBrowser: Native class hierarchy populated in 0.0234 seconds. Added 2457 classes and 562 folders.
-[2018.06.07-18.32.51:597][598]Display: HotReload took  3.6s.
-[2018.06.07-18.33.41:040][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.07-18.33.49:309][737]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.07-18.33.49:365][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-18.33.49:367][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.07-18.33.49:368][737]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 10:33:49 AM)
-[2018.06.07-18.33.49:369][737]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.06.07-18.33.49:382][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013228s)
-[2018.06.07-18.33.49:384][737]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.07-18.33.49:385][737]LogPlayLevel: PIE: World Init took: (0.002550s)
-[2018.06.07-18.33.49:386][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017331s)
-[2018.06.07-18.33.49:414][737]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.07-18.33.49:434][737]LogInit: FAudioDevice initialized.
-[2018.06.07-18.33.49:505][737]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
-[2018.06.07-18.33.49:510][737]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2018.06.07-14.33.49
-[2018.06.07-18.33.49:511][737]LogWorld: Bringing up level for play took: 0.003497
-[2018.06.07-18.33.49:551][737]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
-[2018.06.07-18.33.49:553][737]LogTemp: Warning: Grabber reporting for duty!
-[2018.06.07-18.33.49:553][737]LogTemp: Error: Imput Component found!
-[2018.06.07-18.33.49:554][737]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.638
-[2018.06.07-18.33.49:554][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-18.33.55:662][ 88]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-18.33.55:706][ 88]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-18.34.08:342][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.07-18.34.08:391][149]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.07-18.34.09:957][240]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.07-18.34.17:679][510]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.06.07-18.34.22:978][511]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.06.07-18.34.23:422][512]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.06.07-18.34.26:774][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.06.07-18.34.28:060][539]Candidate modules for hot reload:
-[2018.06.07-18.34.28:060][539]  BuildingEscape
-[2018.06.07-18.34.28:060][539]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,4022 Win64 Development -editorrecompile -canskiplink "C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2018.06.07-18.34.28:064][539]Warning: Starting HotReload took  0.5s.
-[2018.06.07-18.34.31:928][709]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 10:34:31 AM
-[2018.06.07-18.34.31:928][709]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.07-18.34.31:929][709]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.07-18.34.31:929][709]CompilerResultsLog: Target is up to date
-[2018.06.07-18.34.31:929][709]CompilerResultsLog: Total build time: 2.86 seconds (NoActionsToExecute executor: 0.01 seconds)
-[2018.06.07-18.34.31:932][709]LogMainFrame: MainFrame: Module compiling took 3.878 seconds
-[2018.06.07-18.34.32:004][709]LogContentBrowser: Native class hierarchy populated in 0.0198 seconds. Added 2457 classes and 562 folders.
-[2018.06.07-18.34.32:004][709]Display: HotReload took  4.4s.
-[2018.06.07-18.34.54:381][  9]Candidate modules for hot reload:
-[2018.06.07-18.34.54:381][  9]  BuildingEscape
-[2018.06.07-18.34.54:381][  9]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,5694 Win64 Development -editorrecompile -canskiplink "C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2018.06.07-18.34.54:384][  9]Warning: Starting HotReload took  0.0s.
-[2018.06.07-18.34.58:498][205]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 10:34:58 AM
-[2018.06.07-18.34.58:499][205]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.07-18.34.58:503][205]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.07-18.34.58:505][205]CompilerResultsLog: Target is up to date
-[2018.06.07-18.34.58:506][205]CompilerResultsLog: Total build time: 3.38 seconds (NoActionsToExecute executor: 0.03 seconds)
-[2018.06.07-18.34.58:508][205]LogMainFrame: MainFrame: Module compiling took 4.131 seconds
-[2018.06.07-18.34.58:581][205]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2457 classes and 562 folders.
-[2018.06.07-18.34.58:582][205]Display: HotReload took  4.2s.
-[2018.06.07-18.35.07:088][344]Candidate modules for hot reload:
-[2018.06.07-18.35.07:088][344]  BuildingEscape
-[2018.06.07-18.35.07:088][344]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,367 Win64 Development -editorrecompile -canskiplink "C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2018.06.07-18.35.07:091][344]Warning: Starting HotReload took  0.0s.
-[2018.06.07-18.35.19:634][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.07-18.35.23:515][917]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 10:35:23 AM
-[2018.06.07-18.35.23:515][917]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.07-18.35.23:515][917]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.07-18.35.23:515][917]CompilerResultsLog: Performing 3 actions (2 in parallel)
-[2018.06.07-18.35.23:515][917]CompilerResultsLog: Grabber.cpp
-[2018.06.07-18.35.23:516][917]CompilerResultsLog: [2/3] Link UE4Editor-BuildingEscape-367.dll
-[2018.06.07-18.35.23:516][917]CompilerResultsLog: [3/3] Link UE4Editor-BuildingEscape-367.lib
-[2018.06.07-18.35.23:516][917]CompilerResultsLog:    Creating library C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-367.lib and object C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-367.exp
-[2018.06.07-18.35.23:517][917]CompilerResultsLog:    Creating library C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-367.suppressed.lib and object C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-367.suppressed.exp
-[2018.06.07-18.35.23:517][917]CompilerResultsLog: Total build time: 15.73 seconds (Local executor: 13.65 seconds)
-[2018.06.07-18.35.23:518][917]LogMainFrame: MainFrame: Module compiling took 16.434 seconds
-[2018.06.07-18.35.23:621][917]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0018 seconds. Added 4 classes and 2 folders.
-[2018.06.07-18.35.23:624][917]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.06.07-18.35.23:765][917]LogContentBrowser: Native class hierarchy populated in 0.0226 seconds. Added 2457 classes and 562 folders.
-[2018.06.07-18.35.23:765][917]Display: HotReload took 16.7s.
-[2018.06.07-18.35.26:492][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.06.07-18.35.27:163][952]Candidate modules for hot reload:
-[2018.06.07-18.35.27:163][952]  BuildingEscape
-[2018.06.07-18.35.27:163][952]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,4625 Win64 Development -editorrecompile -canskiplink "C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2018.06.07-18.35.27:167][952]Warning: Starting HotReload took  0.0s.
-[2018.06.07-18.35.29:753][ 72]Cmd: SELECT NONE
-[2018.06.07-18.35.33:578][226]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 10:35:33 AM
-[2018.06.07-18.35.33:579][226]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.07-18.35.33:580][226]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.07-18.35.33:581][226]CompilerResultsLog: Target is up to date
-[2018.06.07-18.35.33:582][226]CompilerResultsLog: Total build time: 5.81 seconds (NoActionsToExecute executor: 0.03 seconds)
-[2018.06.07-18.35.33:584][226]LogMainFrame: MainFrame: Module compiling took 6.426 seconds
-[2018.06.07-18.35.33:636][226]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2457 classes and 562 folders.
-[2018.06.07-18.35.33:636][226]Display: HotReload took  6.5s.
-[2018.06.07-18.35.34:081][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.06.07-18.35.34:506][257]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.07-18.35.34:548][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-18.35.34:549][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.07-18.35.34:549][257]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 10:35:34 AM)
-[2018.06.07-18.35.34:550][257]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.06.07-18.35.34:556][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006216s)
-[2018.06.07-18.35.34:558][257]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.07-18.35.34:559][257]LogPlayLevel: PIE: World Init took: (0.002012s)
-[2018.06.07-18.35.34:559][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009348s)
-[2018.06.07-18.35.34:576][257]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.07-18.35.34:591][257]LogInit: FAudioDevice initialized.
-[2018.06.07-18.35.34:591][257]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.07-18.35.34:623][257]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
-[2018.06.07-18.35.34:625][257]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2018.06.07-14.35.34
-[2018.06.07-18.35.34:626][257]LogWorld: Bringing up level for play took: 0.002487
-[2018.06.07-18.35.34:628][257]LogTemp: Warning: Grabber reporting for duty!
-[2018.06.07-18.35.34:628][257]LogTemp: Warning: Imput Component found!
-[2018.06.07-18.35.34:628][257]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.437
-[2018.06.07-18.35.34:629][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-18.35.36:721][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-18.35.36:759][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-18.35.55:742][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.06.07-18.35.56:239][606]Candidate modules for hot reload:
-[2018.06.07-18.35.56:239][606]  BuildingEscape
-[2018.06.07-18.35.56:239][606]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,5153 Win64 Development -editorrecompile -canskiplink "C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2018.06.07-18.35.56:242][606]Warning: Starting HotReload took  0.0s.
-[2018.06.07-18.36.08:307][109]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 10:36:08 AM
-[2018.06.07-18.36.08:308][109]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.07-18.36.08:309][109]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.07-18.36.08:312][109]CompilerResultsLog: Performing 3 actions (2 in parallel)
-[2018.06.07-18.36.08:314][109]CompilerResultsLog: Grabber.cpp
-[2018.06.07-18.36.08:315][109]CompilerResultsLog: [2/3] Link UE4Editor-BuildingEscape-5153.dll
-[2018.06.07-18.36.08:316][109]CompilerResultsLog: [3/3] Link UE4Editor-BuildingEscape-5153.lib
-[2018.06.07-18.36.08:317][109]CompilerResultsLog:    Creating library C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-5153.lib and object C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-5153.exp
-[2018.06.07-18.36.08:324][109]CompilerResultsLog:    Creating library C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-5153.suppressed.lib and object C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-5153.suppressed.exp
-[2018.06.07-18.36.08:327][109]CompilerResultsLog: Total build time: 11.62 seconds (Local executor: 9.72 seconds)
-[2018.06.07-18.36.08:328][109]LogMainFrame: MainFrame: Module compiling took 12.093 seconds
-[2018.06.07-18.36.08:395][109]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0009 seconds. Added 4 classes and 2 folders.
-[2018.06.07-18.36.08:397][109]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.06.07-18.36.08:481][109]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2457 classes and 562 folders.
-[2018.06.07-18.36.08:482][109]Display: HotReload took 12.3s.
-[2018.06.07-19.13.49:071][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.07-19.13.50:722][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.07-19.13.53:148][127]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.06.07-19.13.53:413][128]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BuildingEscape
-[2018.06.07-19.13.53:415][128]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.07-19.13.53:415][128]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.06.07-19.13.53:416][128]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.07-19.13.53:417][128]LogTemp: BranchPath = DESKTOP-6LB38B5/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-6LB38B5/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.06.07-19.13.53:418][128]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Mer Bear\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.06.07-19.14.54:017][ 52]LogSlate: Window 'Project Settings' being destroyed
-[2018.06.07-19.14.54:029][ 52]LogSlate: Window 'Project Settings' being destroyed
-[2018.06.07-19.14.55:567][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
-[2018.06.07-19.14.56:479][123]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.07-19.14.56:754][123]LogSavePackage: Save=195.37ms
-[2018.06.07-19.14.56:754][123]LogSavePackage: Moving '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Minimal_Default8C9EE65749E80ABDD1A20DA550578708.tmp' to '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.06.07-19.14.56:760][123]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.06.07-19.14.57:248][123]LogSavePackage: Save=392.41ms
-[2018.06.07-19.14.57:249][123]LogSavePackage: Moving '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Minimal_Default_BuiltData244694F44AA11A520A5A9EB2948046D6.tmp' to '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.06.07-19.14.57:253][123]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.06.07-19.19.48:874][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
-[2018.06.07-19.19.49:970][234]Candidate modules for hot reload:
-[2018.06.07-19.19.49:971][234]  BuildingEscape
-[2018.06.07-19.19.49:971][234]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,718 Win64 Development -editorrecompile -canskiplink "C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2018.06.07-19.19.49:974][234]Warning: Starting HotReload took  0.0s.
-[2018.06.07-19.20.16:659][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
-[2018.06.07-19.21.06:893][493]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 11:21:06 AM
-[2018.06.07-19.21.06:895][493]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.07-19.21.06:896][493]CompilerResultsLog: Creating makefile for hot reloading BuildingEscape (ini files are newer than UBTMakefile)
-[2018.06.07-19.21.06:897][493]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.07-19.21.06:897][493]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
-[2018.06.07-19.21.06:897][493]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.06.07-19.21.06:900][493]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 43.4439781 seconds
-[2018.06.07-19.21.06:900][493]CompilerResultsLog: Performing 4 actions (2 in parallel)
-[2018.06.07-19.21.06:901][493]CompilerResultsLog: Grabber.cpp
-[2018.06.07-19.21.06:901][493]CompilerResultsLog: Grabber.gen.cpp
-[2018.06.07-19.21.06:901][493]CompilerResultsLog: [3/4] Link UE4Editor-BuildingEscape-718.dll
-[2018.06.07-19.21.06:902][493]CompilerResultsLog: [4/4] Link UE4Editor-BuildingEscape-718.lib
-[2018.06.07-19.21.06:902][493]CompilerResultsLog:    Creating library C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-718.lib and object C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-718.exp
-[2018.06.07-19.21.06:904][493]CompilerResultsLog:    Creating library C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-718.suppressed.lib and object C:\Users\Mer Bear\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-718.suppressed.exp
-[2018.06.07-19.21.06:906][493]CompilerResultsLog: Total build time: 75.38 seconds (Local executor: 5.55 seconds)
-[2018.06.07-19.21.06:907][493]LogMainFrame: MainFrame: Module compiling took 76.947 seconds
-[2018.06.07-19.21.06:971][493]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0010 seconds. Added 4 classes and 2 folders.
-[2018.06.07-19.21.06:973][493]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.06.07-19.21.07:041][493]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2457 classes and 562 folders.
-[2018.06.07-19.21.07:041][493]Display: HotReload took 77.1s.
-[2018.06.07-19.21.14:315][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.07-19.21.17:390][687]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.07-19.21.17:431][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-19.21.17:434][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.07-19.21.17:485][687]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 11:21:17 AM)
-[2018.06.07-19.21.17:486][687]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.06.07-19.21.17:497][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011086s)
-[2018.06.07-19.21.17:500][687]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.07-19.21.17:501][687]LogPlayLevel: PIE: World Init took: (0.002415s)
-[2018.06.07-19.21.17:501][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015427s)
-[2018.06.07-19.21.17:536][687]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.07-19.21.17:557][687]LogInit: FAudioDevice initialized.
-[2018.06.07-19.21.17:558][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.07-19.21.17:594][687]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
-[2018.06.07-19.21.17:598][687]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2018.06.07-15.21.17
-[2018.06.07-19.21.17:600][687]LogWorld: Bringing up level for play took: 0.003812
-[2018.06.07-19.21.17:602][687]LogTemp: Warning: Grabber reporting for duty!
-[2018.06.07-19.21.17:602][687]LogTemp: Warning: Input Component found!
-[2018.06.07-19.21.17:603][687]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.589
-[2018.06.07-19.21.17:603][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-19.21.22:190][951]LogTemp: Warning: Grab pressed!
-[2018.06.07-19.21.25:447][145]LogTemp: Warning: Grab pressed!
-[2018.06.07-19.21.28:166][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-19.21.28:203][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-19.46.01:674][920]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.07-19.46.01:962][920]LogSavePackage: Save=212.14ms
-[2018.06.07-19.46.01:962][920]LogSavePackage: Moving '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Minimal_DefaultCE1854164CFA5688C9718A8D22166EF9.tmp' to '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.06.07-19.46.01:970][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.06.07-19.46.02:422][920]LogSavePackage: Save=346.84ms
-[2018.06.07-19.46.02:422][920]LogSavePackage: Moving '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Minimal_Default_BuiltData37420C9A489DE21A7969DE99D465ED83.tmp' to '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.06.07-19.46.02:426][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.06.07-19.46.04:259][998]Candidate modules for hot reload:
-[2018.06.07-19.46.04:259][998]  BuildingEscape
-[2018.06.07-19.46.04:260][998]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,5120 Win64 Development -editorrecompile -canskiplink "C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
-[2018.06.07-19.46.04:264][998]Warning: Starting HotReload took  0.0s.
-[2018.06.07-19.46.17:034][480]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 11:46:17 AM
-[2018.06.07-19.46.17:034][480]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.07-19.46.17:034][480]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.07-19.46.17:036][480]CompilerResultsLog: Target is up to date
-[2018.06.07-19.46.17:037][480]CompilerResultsLog: Total build time: 10.92 seconds (NoActionsToExecute executor: 0.10 seconds)
-[2018.06.07-19.46.17:039][480]LogMainFrame: MainFrame: Module compiling took 12.786 seconds
-[2018.06.07-19.46.17:120][480]LogContentBrowser: Native class hierarchy populated in 0.0282 seconds. Added 2457 classes and 562 folders.
-[2018.06.07-19.46.17:120][480]Display: HotReload took 12.9s.
-[2018.06.07-19.46.19:524][563]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.07-19.46.19:592][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-19.46.19:593][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.07-19.46.19:594][563]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 11:46:19 AM)
-[2018.06.07-19.46.19:594][563]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.06.07-19.46.19:606][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010443s)
-[2018.06.07-19.46.19:607][563]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.07-19.46.19:608][563]LogPlayLevel: PIE: World Init took: (0.002054s)
-[2018.06.07-19.46.19:608][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013965s)
-[2018.06.07-19.46.19:630][563]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.07-19.46.19:648][563]LogInit: FAudioDevice initialized.
-[2018.06.07-19.46.19:649][563]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.07-19.46.19:684][563]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
-[2018.06.07-19.46.19:687][563]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2018.06.07-15.46.19
-[2018.06.07-19.46.19:688][563]LogWorld: Bringing up level for play took: 0.002957
-[2018.06.07-19.46.19:690][563]LogTemp: Warning: Grabber reporting for duty!
-[2018.06.07-19.46.19:691][563]LogTemp: Warning: Input Component found!
-[2018.06.07-19.46.19:691][563]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.494
-[2018.06.07-19.46.19:692][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-19.46.21:220][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-19.46.21:274][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.07-19.46.26:112][762]LogSlate: Window 'BuildingEscape - Unreal Editor' being destroyed
-[2018.06.07-19.46.26:113][762]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.07-19.46.26:114][762]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.07-19.46.26:380][763]Cmd: QUIT_EDITOR
-[2018.06.07-19.46.27:027][763]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.06.07-19.46.27:027][763]LogExit: Preparing to exit.
-[2018.06.07-19.46.27:521][763]LogDirectoryWatcher: A directory notification for 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/' was aborted.
-[2018.06.07-19.46.27:546][763]LogExit: Editor shut down
-[2018.06.07-19.46.27:561][763]LogExit: Transaction tracking system shut down
-[2018.06.07-19.46.27:747][763]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.06.07-19.46.27:747][763]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/' was aborted.
-[2018.06.07-19.46.27:747][763]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.06.07-19.46.27:747][763]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.06.07-19.46.27:747][763]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.06.07-19.46.27:747][763]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.06.07-19.46.27:747][763]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.06.07-19.46.27:747][763]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.06.07-19.46.27:834][763]LogExit: Object subsystem successfully closed.
-[2018.06.07-19.46.27:850][763]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.06.07-19.46.27:856][763]LogD3D11RHI: Shutdown
-[2018.06.07-19.46.27:856][763]LogD3D11RHI: CleanupD3DDevice
-[2018.06.07-19.46.27:861][763]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.06.07-19.46.27:922][763]LogModuleManager: Shutting down and abandoning module BuildingEscape (583)
-[2018.06.07-19.46.27:922][763]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (582)
-[2018.06.07-19.46.27:922][763]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (578)
-[2018.06.07-19.46.27:922][763]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
-[2018.06.07-19.46.27:922][763]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
-[2018.06.07-19.46.27:922][763]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2018.06.07-19.46.27:922][763]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2018.06.07-19.46.27:922][763]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.06.07-19.46.27:924][763]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2018.06.07-19.46.27:924][763]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2018.06.07-19.46.27:924][763]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2018.06.07-19.46.27:924][763]LogDirectoryWatcher: A directory notification for 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/Collections/' was aborted.
-[2018.06.07-19.46.27:924][763]LogDirectoryWatcher: A directory notification for 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Content/Developers/MerBear/Collections/' was aborted.
-[2018.06.07-19.46.27:924][763]LogDirectoryWatcher: A directory notification for 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Collections/' was aborted.
-[2018.06.07-19.46.27:924][763]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2018.06.07-19.46.27:924][763]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2018.06.07-19.46.27:924][763]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2018.06.07-19.46.27:924][763]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2018.06.07-19.46.27:927][763]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2018.06.07-19.46.27:928][763]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2018.06.07-19.46.28:109][763]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2018.06.07-19.46.28:109][763]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2018.06.07-19.46.28:109][763]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2018.06.07-19.46.28:109][763]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2018.06.07-19.46.28:110][763]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2018.06.07-19.46.28:111][763]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2018.06.07-19.46.28:111][763]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2018.06.07-19.46.28:111][763]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2018.06.07-19.46.28:111][763]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2018.06.07-19.46.28:111][763]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2018.06.07-19.46.28:111][763]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2018.06.07-19.46.28:111][763]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2018.06.07-19.46.28:111][763]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2018.06.07-19.46.28:165][763]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2018.06.07-19.46.28:166][763]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
-[2018.06.07-19.46.28:297][763]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
-[2018.06.07-19.46.28:297][763]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
-[2018.06.07-19.46.28:297][763]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
-[2018.06.07-19.46.28:297][763]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
-[2018.06.07-19.46.28:297][763]LogModuleManager: Shutting down and abandoning module OculusInput (366)
-[2018.06.07-19.46.28:297][763]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
-[2018.06.07-19.46.28:297][763]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
-[2018.06.07-19.46.28:297][763]LogModuleManager: Shutting down and abandoning module CableComponent (360)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
-[2018.06.07-19.46.28:298][763]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
-[2018.06.07-19.46.28:320][763]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
-[2018.06.07-19.46.28:321][763]LogModuleManager: Shutting down and abandoning module SourceControl (305)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.06.07-19.46.28:322][763]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.06.07-19.46.28:423][763]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.06.07-19.46.28:524][763]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.06.07-19.46.28:524][763]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.06.07-19.46.28:524][763]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.06.07-19.46.28:524][763]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.06.07-19.46.28:524][763]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.06.07-19.46.28:524][763]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.06.07-19.46.28:525][763]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.06.07-19.46.28:525][763]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.06.07-19.46.28:526][763]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.06.07-19.46.28:526][763]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.06.07-19.46.28:526][763]LogDirectoryWatcher: A directory notification for 'C:/Users/Mer Bear/Documents/GitHub/BuildingEscape/BuildingEscape/Binaries/Win64' was aborted.
-[2018.06.07-19.46.28:527][763]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.06.07-19.46.28:529][763]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.06.07-19.46.28:529][763]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.06.07-19.46.28:529][763]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.06.07-19.46.28:529][763]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.06.07-19.46.28:587][763]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.06.07-19.46.28:587][763]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.06.07-19.46.28:587][763]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.06.07-19.46.28:589][763]LogModuleManager: Shutting down and abandoning module Media (233)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.06.07-19.46.28:595][763]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.06.07-19.46.28:596][763]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.06.07-19.46.28:596][763]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.06.07-19.46.28:596][763]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.06.07-19.46.28:596][763]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.06.07-19.46.28:598][763]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.06.07-19.46.28:599][763]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.06.07-19.46.28:599][763]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.06.07-19.46.28:599][763]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.06.07-19.46.28:599][763]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.06.07-19.46.28:599][763]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.06.07-19.46.28:599][763]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.06.07-19.46.28:599][763]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.06.07-19.46.28:601][763]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.06.07-19.46.28:698][763]LogDerivedDataCache: Shutdown
-[2018.06.07-19.46.28:698][763]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.06.07-19.46.28:698][763]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.06.07-19.46.28:698][763]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.06.07-19.46.28:698][763]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.06.07-19.46.28:698][763]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.06.07-19.46.28:698][763]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.06.07-19.46.28:698][763]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.06.07-19.46.28:699][763]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.06.07-19.46.28:700][763]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.06.07-19.46.28:700][763]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.06.07-19.46.28:700][763]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD37161E8-4774-3082-5A48-AA85CDBCDC91%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=80fae0684150f11fc44c74b5b174bcf9%7C06671be0b877442ab340586f6848b39c%7Ceea83059-773f-4383-ae85-e39bbed7c376&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.06.07-19.46.28:703][763]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.06.07-19.46.28:705][763]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.06.07-19.46.28:705][763]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.06.07-19.46.28:705][763]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.06.07-19.46.28:705][763]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.06.07-19.46.28:705][763]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.06.07-19.46.28:705][763]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.06.07-19.46.28:705][763]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.06.07-19.46.28:707][763]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.06.07-19.46.28:711][763]LogExit: Exiting.
-[2018.06.07-19.46.28:732][763]Log file closed, 06/07/18 15:46:28
+[2018.06.08-04.38.11:816][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.08-04.38.11:816][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.08-04.38.11:852][  0]LogInit: Computer: DESKTOP-3SLESNI
+[2018.06.08-04.38.11:852][  0]LogInit: User: sultr
+[2018.06.08-04.38.11:852][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.06.08-04.38.11:852][  0]LogInit: High frequency timer resolution =3.233606 MHz
+[2018.06.08-04.38.11:853][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.06.08-04.38.11:853][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.08-04.38.11:853][  0]LogMemory: Process Physical Memory: 276.76 MB used, 276.76 MB peak
+[2018.06.08-04.38.11:853][  0]LogMemory: Process Virtual Memory: 271.02 MB used, 271.02 MB peak
+[2018.06.08-04.38.11:853][  0]LogMemory: Physical Memory: 5809.65 MB used,  10487.82 MB free, 16297.47 MB total
+[2018.06.08-04.38.11:853][  0]LogMemory: Virtual Memory: 4845.21 MB used,  10487.82 MB free, 134217728.00 MB total
+[2018.06.08-04.38.11:880][  0]LogInit: Using OS detected language (en-US).
+[2018.06.08-04.38.11:880][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.08-04.38.11:885][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.08-04.38.12:478][  0]LogStreaming: Display: Took  0.598s to EndInitTextLocalization.
+[2018.06.08-04.38.12:478][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.08-04.38.12:509][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.08-04.38.12:509][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.08-04.38.12:810][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.08-04.38.12:893][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.06.08-04.38.12:894][  0]LogD3D11RHI:       6052/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.08-04.38.12:896][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.08-04.38.12:896][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.08-04.38.12:896][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.08-04.38.12:907][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.08-04.38.12:907][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.08-04.38.12:907][  0]LogWindows: EnumDisplayDevices:
+[2018.06.08-04.38.12:907][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.06.08-04.38.12:907][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.06.08-04.38.12:907][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.06.08-04.38.12:908][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.06.08-04.38.12:908][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.08-04.38.12:908][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.06.08-04.38.12:908][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.08-04.38.12:908][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.08-04.38.12:908][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.06.08-04.38.12:964][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.08-04.38.12:964][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.08-04.38.12:964][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.08-04.38.13:003][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.08-04.38.13:052][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/3812/).
+[2018.06.08-04.38.13:052][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sultr/AppData/Local/Temp/UnrealShaderWorkingDir/9DAE0B2F4F3E1AE505834DA352F5FA50/'.
+[2018.06.08-04.38.13:597][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.08-04.38.13:619][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.08-04.38.13:642][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.08-04.38.13:663][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.08-04.38.13:685][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.08-04.38.13:708][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.08-04.38.13:730][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.08-04.38.13:753][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.08-04.38.13:765][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.08-04.38.13:784][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.08-04.38.13:803][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.08-04.38.13:822][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.08-04.38.13:843][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.08-04.38.13:862][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.08-04.38.13:881][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.08-04.38.13:920][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.08-04.38.13:920][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.08-04.38.13:939][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.08-04.38.13:941][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.08-04.38.13:987][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.08-04.38.14:006][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.08-04.38.14:026][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.08-04.38.14:046][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.08-04.38.14:066][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.08-04.38.14:088][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.08-04.38.14:088][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.08-04.38.14:299][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.08-04.38.14:299][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.08-04.38.14:299][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.08-04.38.15:700][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.08-04.38.15:847][  0]LogDerivedDataCache: Loaded boot cache 0.15s 74MB C:/Users/sultr/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.08-04.38.15:847][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sultr/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.08-04.38.15:847][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.08-04.38.15:847][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.08-04.38.15:847][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.08-04.38.15:847][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.08-04.38.15:871][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.08-04.38.15:884][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sultr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.08-04.38.15:884][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.08-04.38.15:884][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.08-04.38.15:903][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.08-04.38.15:904][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.08-04.38.15:905][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.08-04.38.15:905][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.08-04.38.16:094][  0]LogAssetRegistry: FAssetRegistry took 0.0300 seconds to start up
+[2018.06.08-04.38.16:617][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.08-04.38.16:857][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.08-04.38.16:862][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.08-04.38.16:862][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.08-04.38.16:862][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.08-04.38.16:862][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.08-04.38.16:862][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.08-04.38.16:914][  0]LogNetVersion: BuildingEscape , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4285820645)
+[2018.06.08-04.38.17:617][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.160499 seconds
+[2018.06.08-04.38.17:627][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.08-04.38.17:627][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.06.08-04.38.17:627][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.08-04.38.20:132][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.08-04.38.20:181][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.08-04.38.20:888][  0]SourceControl: Source control is disabled
+[2018.06.08-04.38.20:888][  0]SourceControl: Source control is disabled
+[2018.06.08-04.38.20:924][  0]SourceControl: Source control is disabled
+[2018.06.08-04.38.20:960][  0]SourceControl: Source control is disabled
+[2018.06.08-04.38.21:829][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.08-04.38.22:141][  0]LogOcInput: OculusInput pre-init called
+[2018.06.08-04.38.22:324][  0]LogEngine: Initializing Engine...
+[2018.06.08-04.38.22:325][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.08-04.38.22:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.08-04.38.22:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.08-04.38.22:671][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.08-04.38.22:709][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.08-04.38.22:733][  0]LogInit: FAudioDevice initialized.
+[2018.06.08-04.38.22:866][  0]LogDerivedDataCache: Saved boot cache 0.13s 74MB C:/Users/sultr/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.08-04.38.22:901][  0]LogInit: Texture streaming: Enabled
+[2018.06.08-04.38.22:931][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.08-04.38.22:954][  0]LogInit: Transaction tracking system initialized
+[2018.06.08-04.38.23:002][  0]BlueprintLog: New page: Editor Load
+[2018.06.08-04.38.23:142][  0]LocalizationService: Localization service is disabled
+[2018.06.08-04.38.23:335][  0]LogConsoleResponse: Display: 
+[2018.06.08-04.38.23:552][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.08-04.38.23:552][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.08-04.38.23:552][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.08-04.38.23:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.08-04.38.23:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.08-04.38.24:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/' took 0.02s
+[2018.06.08-04.38.24:294][  0]SourceControl: Source control is disabled
+[2018.06.08-04.38.24:294][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.08-04.38.24:339][  0]LightingResults: New page: Lighting Build
+[2018.06.08-04.38.24:344][  0]MapCheck: New page: Map Check
+[2018.06.08-04.38.24:344][  0]LightingResults: New page: Lighting Build
+[2018.06.08-04.38.26:564][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.08-04.38.26:604][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.08-04.38.26:623][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.08-04.38.26:718][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.478ms to complete.
+[2018.06.08-04.38.26:718][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.424
+[2018.06.08-04.38.26:909][  0]LogCollectionManager: Loaded 0 collections in 0.003647 seconds
+[2018.06.08-04.38.26:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
+[2018.06.08-04.38.26:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/Developers/sultr/Collections/' took 0.01s
+[2018.06.08-04.38.26:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
+[2018.06.08-04.38.26:954][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.08-04.38.26:971][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2456 classes and 560 folders.
+[2018.06.08-04.38.26:983][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.06.08-04.38.28:156][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.06.08-04.38.28:169][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.06.08-04.38.28:216][  0]LogSlate: Took 0.000638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.08-04.38.28:223][  0]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.08-04.38.28:242][  0]LogSlate: Took 0.015287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.08-04.38.28:258][  0]LogSlate: Took 0.014663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.06.08-04.38.28:571][  0]LogRenderer: Reallocating scene render targets to support 1524x632 Format 10 NumSamples 1 (Frame:1).
+[2018.06.08-04.38.28:773][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.06.08-04.38.28:774][  0]LogLoad: (Engine Initialization) Total time: 124.37 seconds
+[2018.06.08-04.38.28:774][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.08-04.38.28:784][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.08-04.38.28:804][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.08-04.38.28:856][  1]LogAssetRegistry: Asset discovery search completed in 12.7842 seconds
+[2018.06.08-04.38.28:859][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.08-04.38.28:860][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000301 seconds (updated 0 objects)
+[2018.06.08-04.39.29:039][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-04.39.31:823][146]MapCheck: New page: Map Check
+[2018.06.08-04.39.31:846][146]Cmd: MAP REBUILD ALLVISIBLE
+[2018.06.08-04.39.31:846][146]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.06.08-04.39.31:926][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.06.08-04.39.31:937][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.06.08-04.39.31:945][146]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.08-04.39.31:946][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2018.06.08-04.39.31:954][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.06.08-04.39.31:961][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.06.08-04.39.31:969][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Grime, compiling. 
+[2018.06.08-04.39.31:978][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.06.08-04.39.31:986][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.06.08-04.39.31:993][146]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2018.06.08-04.39.34:345][146]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.08-04.39.34:345][146]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.08-04.39.34:345][146]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.08-04.39.34:345][146]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.08-04.39.34:345][146]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.08-04.39.34:346][146]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.08-04.39.34:346][146]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.08-04.39.34:346][146]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.08-04.39.34:346][146]TextureStreamingBuild: Display: Compiling optional shaders took 2.427 seconds.
+[2018.06.08-04.39.34:409][146]LogLevel: Display: Export Material TexCoord Scales took 0.063 seconds.
+[2018.06.08-04.39.34:426][146]TextureStreamingBuild: Display: Build Texture Streaming took 0.016 seconds.
+[2018.06.08-04.39.34:444][146]LightingResults: New page: Lighting Build - Jun 7, 2018, 8:39:34 PM
+[2018.06.08-04.39.34:732][146]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.08-04.39.34:891][146]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.08-04.39.34:907][146]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.08-04.39.35:928][146]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.08-04.39.35:929][146]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3812
+[2018.06.08-04.39.38:486][146]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.06.08-04.39.38:487][146]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.08-04.39.38:487][146]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.08-04.39.38:487][146]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.08-04.39.38:487][146]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.08-04.39.38:488][146]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.08-04.39.38:781][146]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.06.08-04.39.38:781][146]MapCheck: New page: Minimal_Default - Jun 7, 2018, 8:39:38 PM
+[2018.06.08-04.39.38:878][146]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.062ms to complete.
+[2018.06.08-04.39.38:901][146]LogEditorBuildUtils: Build time 0:07
+[2018.06.08-04.39.43:362][344]Job is a success!
+[2018.06.08-04.39.43:398][345]LogSlate: Took 0.009941 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.08-04.39.43:457][345]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2018.06.08-04.39.43:457][345]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.06.08-04.39.43:457][345]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.06.08-04.39.43:458][345]LogVolumetricLightmapImport:      Bricks at Level
+[2018.06.08-04.39.43:458][345]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.06.08-04.39.43:458][345]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.06.08-04.39.43:458][345]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.06.08-04.39.43:977][345]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.06.08-04.39.43:977][345]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.06.08-04.39.43:977][345]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.06.08-04.39.43:978][345]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.06.08-04.39.43:978][345]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.06.08-04.39.43:978][345]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.06.08-04.39.44:108][345]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.06.08-04.39.44:109][345]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X256)
+[2018.06.08-04.39.44:144][345]Lightmass on DESKTOP-3SLESNI: 3.58 sec total, 334 ms importing, 28 ms setup, 456 ms photons, 2.72 sec processing, 0 ms extra exporting [13/13 mappings]. Threads: 13.5 sec total, 6.56 sec processing.
+[2018.06.08-04.39.44:180][345]LogStaticLightingSystem: Illumination: 9.70 sec (498 ms encoding lightmaps, 115 ms encoding shadowmaps)
+[2018.06.08-04.39.44:180][345]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.06.08-04.39.44:181][345]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.06.08-04.39.44:491][345]DumpUnbuiltLightIteractions
+[2018.06.08-04.39.44:492][345]Lights with unbuilt interactions: 0
+[2018.06.08-04.39.44:492][345]
+[2018.06.08-04.39.44:492][345]Primitives with unbuilt interactions: 0
+[2018.06.08-04.39.44:628][346]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.08-04.39.44:629][346]MapCheck: New page: Minimal_Default - Jun 7, 2018, 8:39:44 PM
+[2018.06.08-04.39.44:739][346]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.807ms to complete.
+[2018.06.08-04.39.51:887][ 22]Candidate modules for hot reload:
+[2018.06.08-04.39.51:888][ 22]  BuildingEscape
+[2018.06.08-04.39.51:888][ 22]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,7949 Win64 Development -editorrecompile -canskiplink "C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2018.06.08-04.39.51:892][ 22]Warning: Starting HotReload took  0.0s.
+[2018.06.08-04.39.54:174][215]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 8:39:54 PM
+[2018.06.08-04.39.54:174][215]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.08-04.39.54:175][215]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.08-04.39.54:175][215]CompilerResultsLog: Target is up to date
+[2018.06.08-04.39.54:175][215]CompilerResultsLog: Total build time: 1.77 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.06.08-04.39.54:175][215]LogMainFrame: MainFrame: Module compiling took 2.293 seconds
+[2018.06.08-04.39.54:217][215]LogContentBrowser: Native class hierarchy populated in 0.0175 seconds. Added 2457 classes and 562 folders.
+[2018.06.08-04.39.54:218][215]Display: HotReload took  2.4s.
+[2018.06.08-04.40.15:536][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.08-04.40.16:730][327]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.06.08-04.40.18:902][535]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.06.08-04.40.21:901][825]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.06.08-04.40.38:060][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.08-04.40.38:245][424]LogSavePackage: Save=139.99ms
+[2018.06.08-04.40.38:245][424]LogSavePackage: Moving '../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Minimal_Default43AC437842BEF6EDD63353B6B0817B5D.tmp' to '../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.06.08-04.40.38:254][424]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.06.08-04.40.38:416][424]LogSavePackage: Save=81.09ms
+[2018.06.08-04.40.38:416][424]LogSavePackage: Moving '../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Minimal_Default_BuiltDataD9BBC926498C56667A3CFB942F7259E5.tmp' to '../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.06.08-04.40.38:422][424]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.06.08-04.40.49:215][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-04.41.22:256][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-04.41.35:531][154]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.08-04.41.35:559][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.41.35:561][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.08-04.41.35:561][154]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 8:41:35 PM)
+[2018.06.08-04.41.35:562][154]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.08-04.41.35:569][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007047s)
+[2018.06.08-04.41.35:571][154]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.08-04.41.35:571][154]LogPlayLevel: PIE: World Init took: (0.001810s)
+[2018.06.08-04.41.35:571][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009727s)
+[2018.06.08-04.41.35:611][154]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.08-04.41.35:623][154]LogInit: FAudioDevice initialized.
+[2018.06.08-04.41.35:713][154]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
+[2018.06.08-04.41.35:717][154]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.08-00.41.35
+[2018.06.08-04.41.35:718][154]LogWorld: Bringing up level for play took: 0.002247
+[2018.06.08-04.41.35:761][154]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2018.06.08-04.41.35:763][154]LogTemp: Warning: Grabber reporting for duty!
+[2018.06.08-04.41.35:764][154]LogTemp: Warning: Input Component found!
+[2018.06.08-04.41.35:764][154]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.326
+[2018.06.08-04.41.35:764][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.41.38:433][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.41.38:473][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.41.54:570][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-04.42.06:105][640]Cmd: SELECT NONE
+[2018.06.08-04.42.28:033][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2018.06.08-04.43.06:353][388]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.08-04.43.07:439][490]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.08-04.43.09:403][490]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.08-04.43.09:595][491]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BuildingEscape
+[2018.06.08-04.43.09:595][491]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.08-04.43.09:595][491]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.06.08-04.43.09:596][491]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.08-04.43.09:596][491]LogTemp: BranchPath = DESKTOP-3SLESNI/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-3SLESNI/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.06.08-04.43.09:596][491]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\sultr\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.08-04.44.00:095][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.08-04.44.01:734][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-04.44.01:821][ 84]LogSlate: Window 'Project Settings' being destroyed
+[2018.06.08-04.44.01:825][ 84]LogSlate: Window 'Project Settings' being destroyed
+[2018.06.08-04.44.03:094][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-04.44.03:190][205]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.08-04.44.03:216][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.44.03:218][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.08-04.44.03:218][205]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 8:44:03 PM)
+[2018.06.08-04.44.03:219][205]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.08-04.44.03:226][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006733s)
+[2018.06.08-04.44.03:227][205]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.08-04.44.03:227][205]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2018.06.08-04.44.03:228][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008949s)
+[2018.06.08-04.44.03:265][205]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.08-04.44.03:277][205]LogInit: FAudioDevice initialized.
+[2018.06.08-04.44.03:316][205]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
+[2018.06.08-04.44.03:319][205]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.08-00.44.03
+[2018.06.08-04.44.03:319][205]LogWorld: Bringing up level for play took: 0.002294
+[2018.06.08-04.44.03:321][205]LogTemp: Warning: Grabber reporting for duty!
+[2018.06.08-04.44.03:322][205]LogTemp: Warning: Input Component found!
+[2018.06.08-04.44.03:322][205]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.768
+[2018.06.08-04.44.03:322][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.44.04:048][285]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.44.05:210][423]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.44.05:661][477]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.44.06:127][533]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.44.06:452][572]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.44.07:408][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.44.07:446][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.48.18:991][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-04.48.19:080][144]Candidate modules for hot reload:
+[2018.06.08-04.48.19:080][144]  BuildingEscape
+[2018.06.08-04.48.19:080][144]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,7786 Win64 Development -editorrecompile -canskiplink "C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2018.06.08-04.48.19:085][144]Warning: Starting HotReload took  0.0s.
+[2018.06.08-04.49.17:621][121]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 8:49:17 PM
+[2018.06.08-04.49.17:621][121]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.08-04.49.17:621][121]CompilerResultsLog: Creating makefile for hot reloading BuildingEscape (ini files are newer than UBTMakefile)
+[2018.06.08-04.49.17:622][121]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.08-04.49.17:622][121]CompilerResultsLog: Performing 3 actions (6 in parallel)
+[2018.06.08-04.49.17:622][121]CompilerResultsLog: Grabber.cpp
+[2018.06.08-04.49.17:622][121]CompilerResultsLog: [2/3] Link UE4Editor-BuildingEscape-7786.dll
+[2018.06.08-04.49.17:622][121]CompilerResultsLog: [3/3] Link UE4Editor-BuildingEscape-7786.lib
+[2018.06.08-04.49.17:622][121]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7786.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7786.exp
+[2018.06.08-04.49.17:623][121]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7786.suppressed.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7786.suppressed.exp
+[2018.06.08-04.49.17:624][121]CompilerResultsLog: Total build time: 58.00 seconds (Local executor: 2.14 seconds)
+[2018.06.08-04.49.17:624][121]LogMainFrame: MainFrame: Module compiling took 58.548 seconds
+[2018.06.08-04.49.17:677][121]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2018.06.08-04.49.17:681][121]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.08-04.49.17:821][121]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2457 classes and 562 folders.
+[2018.06.08-04.49.17:822][121]Display: HotReload took 58.8s.
+[2018.06.08-04.50.25:510][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-04.50.27:324][846]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.08-04.50.27:351][846]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.50.27:353][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.08-04.50.27:353][846]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 8:50:27 PM)
+[2018.06.08-04.50.27:353][846]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.08-04.50.27:361][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007351s)
+[2018.06.08-04.50.27:362][846]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.08-04.50.27:363][846]LogPlayLevel: PIE: World Init took: (0.001560s)
+[2018.06.08-04.50.27:363][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009736s)
+[2018.06.08-04.50.27:403][846]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.08-04.50.27:414][846]LogInit: FAudioDevice initialized.
+[2018.06.08-04.50.27:449][846]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
+[2018.06.08-04.50.27:452][846]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.08-00.50.27
+[2018.06.08-04.50.27:452][846]LogWorld: Bringing up level for play took: 0.002205
+[2018.06.08-04.50.27:454][846]LogTemp: Warning: Grabber reporting for duty!
+[2018.06.08-04.50.27:455][846]LogTemp: Warning: Input Component found!
+[2018.06.08-04.50.27:455][846]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.634
+[2018.06.08-04.50.27:455][846]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.50.28:498][963]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.50.29:065][ 28]LogTemp: Warning: Grab released!
+[2018.06.08-04.50.29:525][ 83]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.50.29:800][116]LogTemp: Warning: Grab released!
+[2018.06.08-04.50.30:910][248]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.50.30:993][258]LogTemp: Warning: Grab released!
+[2018.06.08-04.50.31:143][276]LogTemp: Warning: Grab pressed!
+[2018.06.08-04.50.31:269][291]LogTemp: Warning: Grab released!
+[2018.06.08-04.50.32:137][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-04.50.32:178][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-05.08.53:928][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-05.08.55:857][212]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.06.08-05.08.55:861][212]Candidate modules for hot reload:
+[2018.06.08-05.08.55:861][212]  BuildingEscape
+[2018.06.08-05.08.55:862][212]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,936 Win64 Development -editorrecompile -canskiplink "C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2018.06.08-05.08.55:866][212]Warning: Starting HotReload took  0.0s.
+[2018.06.08-05.09.07:599][591]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 9:09:07 PM
+[2018.06.08-05.09.07:599][591]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.08-05.09.07:600][591]CompilerResultsLog: Creating makefile for hot reloading BuildingEscape (modules to compile have changed)
+[2018.06.08-05.09.07:600][591]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.08-05.09.07:600][591]CompilerResultsLog: Performing 3 actions (6 in parallel)
+[2018.06.08-05.09.07:600][591]CompilerResultsLog: Grabber.cpp
+[2018.06.08-05.09.07:600][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(43) : error C2065: 'PhysicsHandle': undeclared identifier
+[2018.06.08-05.09.07:601][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(43) : error C3861: 'GetOwner': identifier not found
+[2018.06.08-05.09.07:601][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(43) : error C2227: left of '->FindComponentByClass' must point to class/struct/union/generic type
+[2018.06.08-05.09.07:602][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(43) : note: type is 'unknown-type'
+[2018.06.08-05.09.07:602][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(43) : error C2059: syntax error: ')'
+[2018.06.08-05.09.07:602][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(44) : error C2065: 'PhysicsHandle': undeclared identifier
+[2018.06.08-05.09.07:603][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(48) : error C3861: 'GetOwner': identifier not found
+[2018.06.08-05.09.07:603][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(48) : error C2227: left of '->GetName' must point to class/struct/union/generic type
+[2018.06.08-05.09.07:603][591]CompilerResultsLog: Error: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(48) : note: type is 'unknown-type'
+[2018.06.08-05.09.07:604][591]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-936.dll
+[2018.06.08-05.09.07:604][591]CompilerResultsLog: Total build time: 11.21 seconds (Local executor: 0.00 seconds)
+[2018.06.08-05.09.07:604][591]LogMainFrame: MainFrame: Module compiling took 11.747 seconds
+[2018.06.08-05.09.07:605][591]Warning: HotReload failed, recompile failed
+[2018.06.08-05.09.16:634][667]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.08-05.09.19:016][850]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2018.06.08-05.09.19:467][850]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e92a67a460, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.08-05.09.19:469][850]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e92a67a458, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.08-05.09.20:257][850]LogSlate: Took 0.028223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.08-05.09.22:053][951]LogSlate: Window 'DefaultPawn_BP' being destroyed
+[2018.06.08-05.09.22:058][951]LogSlate: Window 'DefaultPawn_BP' being destroyed
+[2018.06.08-05.09.23:552][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-05.09.29:199][551]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.06.08-05.12.00:844][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-05.12.00:972][300]Candidate modules for hot reload:
+[2018.06.08-05.12.00:972][300]  BuildingEscape
+[2018.06.08-05.12.00:972][300]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,6329 Win64 Development -editorrecompile -canskiplink "C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2018.06.08-05.12.00:977][300]Warning: Starting HotReload took  0.0s.
+[2018.06.08-05.12.05:565][716]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 9:12:05 PM
+[2018.06.08-05.12.05:565][716]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.08-05.12.05:565][716]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.08-05.12.05:566][716]CompilerResultsLog: Performing 3 actions (6 in parallel)
+[2018.06.08-05.12.05:566][716]CompilerResultsLog: Grabber.cpp
+[2018.06.08-05.12.05:566][716]CompilerResultsLog: [2/3] Link UE4Editor-BuildingEscape-6329.dll
+[2018.06.08-05.12.05:566][716]CompilerResultsLog: [3/3] Link UE4Editor-BuildingEscape-6329.lib
+[2018.06.08-05.12.05:566][716]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6329.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6329.exp
+[2018.06.08-05.12.05:567][716]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6329.suppressed.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-6329.suppressed.exp
+[2018.06.08-05.12.05:568][716]CompilerResultsLog: Total build time: 4.07 seconds (Local executor: 2.54 seconds)
+[2018.06.08-05.12.05:568][716]LogMainFrame: MainFrame: Module compiling took 4.602 seconds
+[2018.06.08-05.12.05:647][716]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2018.06.08-05.12.05:654][716]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.08-05.12.06:113][716]LogContentBrowser: Native class hierarchy populated in 0.0175 seconds. Added 2457 classes and 562 folders.
+[2018.06.08-05.12.06:114][716]Display: HotReload took  5.2s.
+[2018.06.08-05.22.02:382][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-05.22.02:505][ 60]Candidate modules for hot reload:
+[2018.06.08-05.22.02:505][ 60]  BuildingEscape
+[2018.06.08-05.22.02:505][ 60]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,1898 Win64 Development -editorrecompile -canskiplink "C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2018.06.08-05.22.02:510][ 60]Warning: Starting HotReload took  0.0s.
+[2018.06.08-05.22.24:038][449]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 9:22:24 PM
+[2018.06.08-05.22.24:038][449]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.08-05.22.24:038][449]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.08-05.22.24:038][449]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2018.06.08-05.22.24:039][449]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.06.08-05.22.24:039][449]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 15.946203 seconds
+[2018.06.08-05.22.24:040][449]CompilerResultsLog: Performing 4 actions (6 in parallel)
+[2018.06.08-05.22.24:040][449]CompilerResultsLog: Grabber.cpp
+[2018.06.08-05.22.24:040][449]CompilerResultsLog: Grabber.gen.cpp
+[2018.06.08-05.22.24:040][449]CompilerResultsLog: [3/4] Link UE4Editor-BuildingEscape-1898.dll
+[2018.06.08-05.22.24:040][449]CompilerResultsLog: [4/4] Link UE4Editor-BuildingEscape-1898.lib
+[2018.06.08-05.22.24:040][449]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-1898.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-1898.exp
+[2018.06.08-05.22.24:041][449]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-1898.suppressed.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-1898.suppressed.exp
+[2018.06.08-05.22.24:042][449]CompilerResultsLog: Total build time: 20.99 seconds (Local executor: 3.25 seconds)
+[2018.06.08-05.22.24:042][449]LogMainFrame: MainFrame: Module compiling took 21.542 seconds
+[2018.06.08-05.22.24:174][449]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2018.06.08-05.22.24:180][449]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.08-05.22.24:676][449]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2457 classes and 562 folders.
+[2018.06.08-05.22.24:677][449]Display: HotReload took 22.2s.
+[2018.06.08-05.22.25:809][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-05.22.25:915][586]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.08-05.22.25:942][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-05.22.25:943][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.08-05.22.25:944][586]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 9:22:25 PM)
+[2018.06.08-05.22.25:944][586]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.08-05.22.25:951][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006359s)
+[2018.06.08-05.22.25:952][586]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.08-05.22.25:953][586]LogPlayLevel: PIE: World Init took: (0.001630s)
+[2018.06.08-05.22.25:953][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008832s)
+[2018.06.08-05.22.26:054][586]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.08-05.22.26:065][586]LogInit: FAudioDevice initialized.
+[2018.06.08-05.22.26:103][586]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
+[2018.06.08-05.22.26:105][586]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.08-01.22.26
+[2018.06.08-05.22.26:106][586]LogWorld: Bringing up level for play took: 0.002024
+[2018.06.08-05.22.26:108][586]LogTemp: Warning: Input Component found!
+[2018.06.08-05.22.26:108][586]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.018
+[2018.06.08-05.22.26:108][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-05.22.27:275][710]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.32:366][257]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.36:216][713]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.36:433][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.08-05.22.36:434][739]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.38:432][976]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.39:396][ 91]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.40:696][247]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.40:696][247]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-05.22.40:838][264]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.41:454][338]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.41:455][338]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-05.22.41:646][361]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.43:964][635]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.43:964][635]LogTemp: Warning: Player has encountered Table
+[2018.06.08-05.22.44:256][670]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.46:113][892]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.46:113][892]LogTemp: Warning: Player has encountered Table
+[2018.06.08-05.22.46:721][965]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.48:466][174]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.50:585][428]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.50:835][458]LogTemp: Warning: Grab pressed!
+[2018.06.08-05.22.50:835][458]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-05.22.50:968][474]LogTemp: Warning: Grab released!
+[2018.06.08-05.22.53:970][834]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-05.22.54:010][834]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.26.02:391][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-06.26.02:527][654]Candidate modules for hot reload:
+[2018.06.08-06.26.02:527][654]  BuildingEscape
+[2018.06.08-06.26.02:528][654]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,7412 Win64 Development -editorrecompile -canskiplink "C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2018.06.08-06.26.02:533][654]Warning: Starting HotReload took  0.0s.
+[2018.06.08-06.26.07:099][778]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 10:26:07 PM
+[2018.06.08-06.26.07:100][778]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.08-06.26.07:100][778]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.08-06.26.07:100][778]CompilerResultsLog: Performing 3 actions (6 in parallel)
+[2018.06.08-06.26.07:100][778]CompilerResultsLog: Grabber.cpp
+[2018.06.08-06.26.07:101][778]CompilerResultsLog: [2/3] Link UE4Editor-BuildingEscape-7412.dll
+[2018.06.08-06.26.07:101][778]CompilerResultsLog: [3/3] Link UE4Editor-BuildingEscape-7412.lib
+[2018.06.08-06.26.07:101][778]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7412.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7412.exp
+[2018.06.08-06.26.07:102][778]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7412.suppressed.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-7412.suppressed.exp
+[2018.06.08-06.26.07:103][778]CompilerResultsLog: Total build time: 3.75 seconds (Local executor: 2.13 seconds)
+[2018.06.08-06.26.07:103][778]LogMainFrame: MainFrame: Module compiling took 4.581 seconds
+[2018.06.08-06.26.07:299][778]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0019 seconds. Added 4 classes and 2 folders.
+[2018.06.08-06.26.07:307][778]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.08-06.26.07:832][778]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2457 classes and 562 folders.
+[2018.06.08-06.26.07:832][778]Display: HotReload took  5.3s.
+[2018.06.08-06.26.11:192][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.08-06.26.14:312][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-06.26.14:382][156]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.08-06.26.14:414][156]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.26.14:415][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.08-06.26.14:415][156]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 10:26:14 PM)
+[2018.06.08-06.26.14:416][156]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.08-06.26.14:425][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008470s)
+[2018.06.08-06.26.14:426][156]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.08-06.26.14:427][156]LogPlayLevel: PIE: World Init took: (0.001951s)
+[2018.06.08-06.26.14:427][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011378s)
+[2018.06.08-06.26.14:554][156]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.08-06.26.14:567][156]LogInit: FAudioDevice initialized.
+[2018.06.08-06.26.14:603][156]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
+[2018.06.08-06.26.14:606][156]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.08-02.26.14
+[2018.06.08-06.26.14:607][156]LogWorld: Bringing up level for play took: 0.002658
+[2018.06.08-06.26.14:610][156]LogTemp: Warning: Input Component found!
+[2018.06.08-06.26.14:610][156]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.52
+[2018.06.08-06.26.14:611][156]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.26.15:163][212]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.17:659][478]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.19:854][741]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.19:854][741]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.33:457][342]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.34:183][427]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.34:380][450]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.35:067][531]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.35:067][531]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.35:249][552]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.35:811][610]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.35:912][622]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.36:363][676]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.36:363][676]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.36:488][691]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.36:714][718]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.36:714][718]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.36:864][736]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.37:016][754]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.37:017][754]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.37:108][765]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.39:832][ 87]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.39:832][ 87]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.39:940][100]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.43:076][472]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.43:076][472]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.43:168][483]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.44:236][611]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.44:236][611]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.44:319][621]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.45:516][764]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.26.45:560][764]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.26.51:043][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-06.26.51:134][356]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.08-06.26.51:161][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.26.51:162][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.08-06.26.51:163][356]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 10:26:51 PM)
+[2018.06.08-06.26.51:163][356]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.08-06.26.51:170][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007139s)
+[2018.06.08-06.26.51:172][356]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.08-06.26.51:173][356]LogPlayLevel: PIE: World Init took: (0.001817s)
+[2018.06.08-06.26.51:173][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010117s)
+[2018.06.08-06.26.51:219][356]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.08-06.26.51:230][356]LogInit: FAudioDevice initialized.
+[2018.06.08-06.26.51:269][356]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
+[2018.06.08-06.26.51:272][356]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.08-02.26.51
+[2018.06.08-06.26.51:273][356]LogWorld: Bringing up level for play took: 0.002367
+[2018.06.08-06.26.51:275][356]LogTemp: Warning: Input Component found!
+[2018.06.08-06.26.51:275][356]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.814
+[2018.06.08-06.26.51:276][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.26.51:747][402]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.52:487][489]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.54:627][745]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.54:627][745]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.55:231][817]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.56:341][949]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.26.56:341][949]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.26.56:466][964]LogTemp: Warning: Grab released!
+[2018.06.08-06.26.57:585][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.26.57:624][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.28.56:263][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-06.28.56:328][199]Candidate modules for hot reload:
+[2018.06.08-06.28.56:328][199]  BuildingEscape
+[2018.06.08-06.28.56:328][199]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix=BuildingEscape,8342 Win64 Development -editorrecompile -canskiplink "C:/Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/BuildingEscape.uproject" ]
+[2018.06.08-06.28.56:333][199]Warning: Starting HotReload took  0.0s.
+[2018.06.08-06.29.00:539][680]CompilerResultsLog: New page: Compilation - Jun 7, 2018, 10:29:00 PM
+[2018.06.08-06.29.00:539][680]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.08-06.29.00:539][680]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.08-06.29.00:539][680]CompilerResultsLog: Performing 3 actions (6 in parallel)
+[2018.06.08-06.29.00:540][680]CompilerResultsLog: Grabber.cpp
+[2018.06.08-06.29.00:540][680]CompilerResultsLog: [2/3] Link UE4Editor-BuildingEscape-8342.dll
+[2018.06.08-06.29.00:540][680]CompilerResultsLog: [3/3] Link UE4Editor-BuildingEscape-8342.lib
+[2018.06.08-06.29.00:540][680]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-8342.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-8342.exp
+[2018.06.08-06.29.00:541][680]CompilerResultsLog:    Creating library C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-8342.suppressed.lib and object C:\Users\sultr\Documents\GitHub\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-8342.suppressed.exp
+[2018.06.08-06.29.00:542][680]CompilerResultsLog: Total build time: 3.67 seconds (Local executor: 2.14 seconds)
+[2018.06.08-06.29.00:542][680]LogMainFrame: MainFrame: Module compiling took 4.219 seconds
+[2018.06.08-06.29.00:607][680]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2018.06.08-06.29.00:613][680]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.08-06.29.01:066][680]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2457 classes and 562 folders.
+[2018.06.08-06.29.01:066][680]Display: HotReload took  4.8s.
+[2018.06.08-06.29.03:312][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.08-06.29.03:404][922]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.08-06.29.03:431][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.29.03:433][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.08-06.29.03:433][922]PIE: New page: PIE session: Minimal_Default (Jun 7, 2018, 10:29:03 PM)
+[2018.06.08-06.29.03:433][922]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.08-06.29.03:441][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006937s)
+[2018.06.08-06.29.03:443][922]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.08-06.29.03:443][922]LogPlayLevel: PIE: World Init took: (0.001954s)
+[2018.06.08-06.29.03:443][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010001s)
+[2018.06.08-06.29.03:544][922]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.08-06.29.03:556][922]LogInit: FAudioDevice initialized.
+[2018.06.08-06.29.03:594][922]LogLoad: Game class is 'BuildingEscapeGameModeBase_BP_C'
+[2018.06.08-06.29.03:598][922]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.08-02.29.03
+[2018.06.08-06.29.03:598][922]LogWorld: Bringing up level for play took: 0.002858
+[2018.06.08-06.29.03:601][922]LogTemp: Warning: Input Component found!
+[2018.06.08-06.29.03:601][922]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.489
+[2018.06.08-06.29.03:601][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.29.04:202][985]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.06:096][201]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.07:956][402]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.07:956][402]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.09:253][557]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.11:231][793]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.11:232][793]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.11:459][820]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.12:329][922]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.12:761][973]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.13:447][ 54]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.13:447][ 54]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.13:769][ 92]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.16:061][363]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.16:062][363]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.29.16:547][420]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.17:478][531]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.17:478][531]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.29.17:805][570]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.18:705][677]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.18:705][677]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.29.22:574][135]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.24:702][388]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.24:702][388]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.29.24:853][406]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.27:507][722]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.27:507][722]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.27:675][742]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.34:146][517]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.34:147][517]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.34:488][557]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.35:891][723]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.35:891][723]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.36:196][759]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.37:812][952]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.37:812][952]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.38:006][975]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.39:791][187]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.39:791][187]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.47:953][152]LogTemp: Warning: Grab released!
+[2018.06.08-06.29.52:662][707]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.29.52:662][707]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.29.55:903][ 92]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.04:890][166]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.04:890][166]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.30.05:280][212]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.07:945][530]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.07:946][530]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.30.08:441][588]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.10:899][881]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.10:899][881]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.30.11:236][921]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.12:996][131]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.12:996][131]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.13:166][151]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.14:455][305]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.14:812][347]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.15:302][405]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.15:302][405]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.15:492][427]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.16:849][589]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.16:850][589]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.17:062][614]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.19:110][857]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.19:110][857]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.19:323][882]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.21:162][102]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.21:163][102]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.21:432][134]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.22:296][237]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.22:677][282]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.23:452][374]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.23:452][374]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.23:716][405]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.25:506][619]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.25:792][653]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.26:630][753]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.26:631][753]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.26:850][779]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.30:101][167]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.30:101][167]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.30:559][221]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.35:079][761]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.35:080][761]LogTemp: Warning: Player has encountered Table
+[2018.06.08-06.30.35:392][798]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.38:182][131]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.38:182][131]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.38:428][160]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.40:323][386]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.40:467][403]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.41:287][500]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.41:287][500]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.41:465][521]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.43:536][768]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.43:779][797]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.45:179][964]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.45:180][964]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.45:550][  8]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.47:126][196]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.47:127][196]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.47:555][246]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.49:412][463]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.49:412][463]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.49:716][499]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.51:255][682]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.51:255][682]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.51:441][704]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.53:261][921]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.53:262][921]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.53:518][951]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.56:405][295]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.56:692][329]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.57:527][428]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.57:920][475]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.58:070][493]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.58:411][534]LogTemp: Warning: Grab released!
+[2018.06.08-06.30.58:678][566]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.30.58:679][566]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.30.59:193][627]LogTemp: Warning: Grab released!
+[2018.06.08-06.31.02:030][966]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.31.02:030][966]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.31.04:078][211]LogTemp: Warning: Grab released!
+[2018.06.08-06.31.05:511][381]LogTemp: Warning: Grab pressed!
+[2018.06.08-06.31.05:511][381]LogTemp: Warning: Player has encountered Chair
+[2018.06.08-06.31.05:782][413]LogTemp: Warning: Grab released!
+[2018.06.08-06.31.25:475][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.31.25:515][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.08-06.31.51:586][895]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.08-06.31.51:822][895]LogSavePackage: Save=182.09ms
+[2018.06.08-06.31.51:822][895]LogSavePackage: Moving '../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Minimal_Default5EAD3AA04F36A5E02BEEA3B19B480C01.tmp' to '../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.06.08-06.31.51:831][895]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.06.08-06.31.51:982][895]LogSavePackage: Save=81.23ms
+[2018.06.08-06.31.51:983][895]LogSavePackage: Moving '../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Saved/Minimal_Default_BuiltData90963BA84EEEC28607928AA6BAD43FAB.tmp' to '../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.06.08-06.31.51:986][895]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/sultr/Documents/GitHub/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.06.08-06.31.54:860][149]LogSlate: FSceneViewport::OnFocusLost() reason 2
